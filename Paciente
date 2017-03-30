@@ -22,6 +22,7 @@ public class Paciente implements Comparable<Pacientes> {
 
 	public boolean equals1(Object obj) {
 
+
 		Pacientes e2 = (Pacientes) obj;
 
 		//System.out.println(this.empId + " "+ e2.empId);
@@ -75,9 +76,12 @@ public class Paciente implements Comparable<Pacientes> {
 	@Override
 
 	//public String toString() {
-
+	public String toString() {
+		return "Paciente [empName=" + empName + ", empenfermedad=" + empenfermedad + ", empgravedad=" + empgravedad
+				+ "]";
 		//return this.getempName()+"-"+this.getempenfermedad()+"-"+this.getempgravedad();
 		//esta linea me sale con error por favor revisala//
+		
 
 	}
 
